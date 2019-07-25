@@ -1,0 +1,19 @@
+--- # test
+meta:
+  name       : reco-mlhub
+  version    : 0.1
+  keywords   : python
+  languages  : py
+  license    : gpl3
+  title      : MLHub wrap-up of Microsoft Recommenders
+  author     : Simon Zhao
+  url        : https://github.com/simonzhaoms/reco-mlhub
+dependencies:
+  conda: reco_base.yaml
+  files:
+    - README.md
+    - runbook.py
+    - 'github:Microsoft/Recommenders': recommenders
+    - reco_base.yaml
+commands:
+  runbook: Run a noteboo in Microsoft Recommenders.
