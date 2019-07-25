@@ -9,7 +9,9 @@ meta:
   author     : Simon Zhao
   url        : https://github.com/simonzhaoms/reco-mlhub
 dependencies:
-  conda: reco_base.yaml
+  python:
+    conda:
+      - file: reco_base.yaml
   files:
     - README.md
     - runbook.py
