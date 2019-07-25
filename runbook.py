@@ -1,5 +1,7 @@
 import papermill as pm
 import time
+import sys
+sys.path.append("./recommenders")
 
 INPUT_NOTEBOOK = 'recommenders/notebooks/00_quick_start/sar_movielens.ipynb'
 OUTPUT_NOTEBOOK = 'sar_movielens_output.ipynb'
